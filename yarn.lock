@@ -1428,7 +1428,23 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@backstage/core-components@^0.9.0", "@backstage/core-components@^0.9.3":
+"@backstage/core-app-api@^1.0.1", "@backstage/core-app-api@^1.0.1-next.0":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@backstage/core-app-api/-/core-app-api-1.0.1.tgz#56743fb135588f522e97e7e88a848c9a8f351406"
+  integrity sha512-DLsEOpmvUA+LRbhlHiYWGq360lm/WcD2uk27HXWmhEcOnvY/xUItR/aFkHF9QRuGLsU3DQkJb4/ts6/vPjuvvQ==
+  dependencies:
+    "@backstage/config" "^1.0.0"
+    "@backstage/core-plugin-api" "^1.0.1"
+    "@backstage/types" "^1.0.0"
+    "@backstage/version-bridge" "^1.0.1"
+    "@types/prop-types" "^15.7.3"
+    prop-types "^15.7.2"
+    react-router-dom "6.0.0-beta.0"
+    react-use "^17.2.4"
+    zen-observable "^0.8.15"
+    zod "^3.11.6"
+
+"@backstage/core-components@^0.9.0", "@backstage/core-components@^0.9.3", "@backstage/core-components@^0.9.3-next.1":
   version "0.9.3"
   resolved "https://registry.npmjs.org/@backstage/core-components/-/core-components-0.9.3.tgz#79d8bcea06281da492730fe8eb14aa18877b27c4"
   integrity sha512-cZr6pT3Q7whzdKvB/M3P4NH2/J4+GHKLvQsnRNoel+DE6PmenyAPDslSRf62Lu17+n6qZNHPMfySK1rePnf0Kg==
@@ -1592,6 +1608,28 @@
     lodash "^4.17.21"
     qs "^6.9.4"
     react-use "^17.2.4"
+
+"@backstage/test-utils@^1.0.2-next.0":
+  version "1.0.2-next.0"
+  resolved "https://registry.npmjs.org/@backstage/test-utils/-/test-utils-1.0.2-next.0.tgz#e08af032c4ccf926be3a8ea8f68f6380d2e15601"
+  integrity sha512-gvAgqBAFLZRuTc08IYeZ8gqtUgqjXbY0VVECpTWC4FD6qWPKr4hXIpolD95Dzzo9WX5BPWV9phMcmAxYjo/B5g==
+  dependencies:
+    "@backstage/config" "^1.0.0"
+    "@backstage/core-app-api" "^1.0.1"
+    "@backstage/core-plugin-api" "^1.0.1"
+    "@backstage/plugin-permission-common" "^0.6.0"
+    "@backstage/plugin-permission-react" "^0.4.0"
+    "@backstage/theme" "^0.2.15"
+    "@backstage/types" "^1.0.0"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.11.2"
+    "@testing-library/jest-dom" "^5.10.1"
+    "@testing-library/react" "^12.1.3"
+    "@testing-library/user-event" "^14.0.0"
+    cross-fetch "^3.1.5"
+    react-router "6.0.0-beta.0"
+    react-router-dom "6.0.0-beta.0"
+    zen-observable "^0.8.15"
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -4014,7 +4052,7 @@
     react-beautiful-dnd "^13.0.0"
     react-double-scrollbar "0.0.15"
 
-"@material-ui/core@^4.11.0", "@material-ui/core@^4.11.3", "@material-ui/core@^4.12.1", "@material-ui/core@^4.12.2", "@material-ui/core@^4.9.13":
+"@material-ui/core@^4.11.0", "@material-ui/core@^4.11.3", "@material-ui/core@^4.12.1", "@material-ui/core@^4.12.2", "@material-ui/core@^4.9.10", "@material-ui/core@^4.9.13":
   version "4.12.4"
   resolved "https://registry.npmjs.org/@material-ui/core/-/core-4.12.4.tgz#4ac17488e8fcaf55eb6a7f5efb2a131e10138a73"
   integrity sha512-tr7xekNlM9LjA6pagJmL8QCgZXaubWUwkJnoYcMKd4gw/t4XiyvnTkjdGrUVicyB2BsdaAv1tvow45bPM4sSwQ==
@@ -4061,7 +4099,7 @@
     prop-types "^15.7.2"
     react-is "^16.8.0 || ^17.0.0"
 
-"@material-ui/lab@^4.0.0-alpha.60":
+"@material-ui/lab@^4.0.0-alpha.57", "@material-ui/lab@^4.0.0-alpha.60":
   version "4.0.0-alpha.61"
   resolved "https://registry.npmjs.org/@material-ui/lab/-/lab-4.0.0-alpha.61.tgz#9bf8eb389c0c26c15e40933cc114d4ad85e3d978"
   integrity sha512-rSzm+XKiNUjKegj8bzt5+pygZeckNLOr+IjykH8sYdVk7dE9y2ZuUSofiMV2bJk3qU+JHwexmw+q0RyNZB9ugg==
